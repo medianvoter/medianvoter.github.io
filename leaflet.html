@@ -145,7 +145,7 @@ colossus &lt;- c(36.450664864, 28.22333244, &quot;Colossus of Rhodes&quot;)
 lighthouse &lt;- c(31.15458, 29.84587, &quot;Lighthouse of Alexandria&quot;)
 temple &lt;- c(37.943162894, 27.3583319, &quot;Temple of Artemis&quot;)
 statue &lt;- c(37.6360474558, 21.624664168, &quot;Statue of Zeus at Olympia&quot;)
-mausoleum &lt;- c(37.0360998556, 27.4210983156, &quot;Mausoleum at Halicarnasus&quot;)
+mausoleum &lt;- c(37.0360998556, 27.4210983156, &quot;Mausoleum at Halicarnassus&quot;)
 
 df &lt;- data.frame(rbind(pyramid, hangingGardens, colossus, lighthouse, temple, 
                        statue, mausoleum))
@@ -155,8 +155,8 @@ df$lng &lt;- as.numeric(as.character(df$lng))
 df$popup &lt;- as.character(df$popup)
 
 df %&gt;% leaflet() %&gt;% addTiles() %&gt;% addMarkers(popup = df$popup)</code></pre>
-<div id="htmlwidget-6130d0db8571ca261219" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6130d0db8571ca261219">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[29.97416777,32.5355,36.450664864,31.15458,37.943162894,37.6360474558,37.0360998556],[31.1339477975,44.4275,28.22333244,29.84587,27.3583319,21.624664168,27.4210983156],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Great Pyramid of Giza","Hanging Gardens of Babylon","Colossus of Rhodes","Lighthouse of Alexandria","Temple of Artemis","Statue of Zeus at Olympia","Mausoleum at Halicarnasus"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[29.97416777,37.943162894],"lng":[21.624664168,44.4275]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3173e52214c0bae86ba9" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3173e52214c0bae86ba9">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[29.97416777,32.5355,36.450664864,31.15458,37.943162894,37.6360474558,37.0360998556],[31.1339477975,44.4275,28.22333244,29.84587,27.3583319,21.624664168,27.4210983156],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Great Pyramid of Giza","Hanging Gardens of Babylon","Colossus of Rhodes","Lighthouse of Alexandria","Temple of Artemis","Statue of Zeus at Olympia","Mausoleum at Halicarnassus"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[29.97416777,37.943162894],"lng":[21.624664168,44.4275]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

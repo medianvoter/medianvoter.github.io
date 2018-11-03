@@ -19,7 +19,7 @@ colossus <- c(36.450664864, 28.22333244, "Colossus of Rhodes")
 lighthouse <- c(31.15458, 29.84587, "Lighthouse of Alexandria")
 temple <- c(37.943162894, 27.3583319, "Temple of Artemis")
 statue <- c(37.6360474558, 21.624664168, "Statue of Zeus at Olympia")
-mausoleum <- c(37.0360998556, 27.4210983156, "Mausoleum at Halicarnasus")
+mausoleum <- c(37.0360998556, 27.4210983156, "Mausoleum at Halicarnassus")
 
 df <- data.frame(rbind(pyramid, hangingGardens, colossus, lighthouse, temple, 
                        statue, mausoleum))
